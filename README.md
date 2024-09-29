@@ -47,14 +47,9 @@
 ## Deployment
 ### CI/CD
 이미지가 들어갈 공간(2)
-- Github Action를 활용한 CI/CD 프로세스 구축
+- NCP를 이용해 배포
   - CI : Main branch로 push또는 pull request처리가 이루어지면 repository의 내역을 토대로 build를 실행. 빌드 성공시 Dockerfile을 토대로 Docker Image를 제작하여 네이버 클라우드의 Container Reqistry로 이미지를 전송
   - CD : 네이버 클라우드 CLI를 통하여 현 깃허브 액션 실행서버에서 배포 서버로의 접근 권한 부여 후 ssh 접속을 통한 원격 접속. 이후 네이버 클라우드 Container Registry에서 신규 이미지를 pull한 후 현재 사용중인 컨테이너를 정지하고 새로 pull한 이미지를 바탕으로 새 컨테이너 실행. 작업 완료 후 불필요한 이미지 버젼 제거 및 서버 접근권한 제거
-- 총 4개의 Repository를 이용하여 각 Repository별로 각개의 서비스를 구축
-  - JoseonpaldoFront  : NextJS 14 기반의 프론트엔드 서버
-  - JoseonpaldoBack   : 로그인 인증 및 CRUD들이 이루어지는 SpringBoot 기반의 백엔드 서버
-  - maingmaews        : 메인 게임의 웹소켓 통신 및 채팅기능을 처리하는 Springboot 기반의 백엔드 서버
-  - minigamews        : 미니게임들의 웹소켓 통신 및 SSE를 처리하는 ExpressJS 기반의 백엔드 서버
 
 ## Function
 ### 로그인
