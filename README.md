@@ -46,22 +46,6 @@
 작업중
 
 ## Deployment
-### Servers
-이미지가 들어갈 공간(1)
-
-- DNS/SSL
-  - 가비아 네이밍 서버를 통한 DNS 구축
-  - 네이버 Certificate Manager를 통하여 SSL 인증서 발급
-- Load Balancer
-  - 네이버 클라우드의 Application Loadbalancer를 사용
-  - Path분기를 통하여 서비스별로 분기점 설정
-    - /api  : CRUD및 로그인/로그아웃 로직을 실행
-    - /ws   : 채팅 및 메인게임의 웹소켓 통신을 담당
-    - /nws  : 미니게임들이 구현된 서버
-    - /     : 클라이언트 페이지
-- Servers
-    - 총 두개의 서버를 사용하여 각 서버에서 복수의 Docker Container활용
-
 ### CI/CD
 이미지가 들어갈 공간(2)
 - Github Action를 활용한 CI/CD 프로세스 구축
@@ -78,7 +62,6 @@
 이미지 들어갈 공간(3)
 - 사용자 로그인
   -   RESTful 방식을 사용하여 로그인 데이터를 안전하게 데이터베이스에 저장하며, 사용자에게 간편한 플랫폼 접근성을 제공합니다.
-
 
 ### 반응형 디자인
 이미지 들어갈 공간(3)
