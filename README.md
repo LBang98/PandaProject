@@ -37,7 +37,7 @@
 - [API 명세서](#api-명세서)
 
 ## 소개영상
-[![YouTube Video](https://img.youtube.com/vi/jxF3JOLMpdw/0.jpg)](https://www.youtube.com/watch?v=jMFjW18qeZ4)
+[![YouTube Video](https://private-user-images.githubusercontent.com/133863078/371852448-457b3030-85ee-4c2e-9a6a-bc70ee3bf98e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc2MTE2OTcsIm5iZiI6MTcyNzYxMTM5NywicGF0aCI6Ii8xMzM4NjMwNzgvMzcxODUyNDQ4LTQ1N2IzMDMwLTg1ZWUtNGMyZS05YTZhLWJjNzBlZTNiZjk4ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyOVQxMjAzMTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMDQ1N2QzYmY4YjI3MGNhOTNmNTk3NTM1ZWIxMGI0MTdkM2Q3NGY2ZDQ3MjFjZjI2NTI5Mjk0MGQwNmYwZmU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZOmSmu0x03be_uAMkh8yfVbEl4uNM2OLM2LSCAnY0WI)](https://www.youtube.com/watch?v=jMFjW18qeZ4)
 
 ## ERD
 작업중
