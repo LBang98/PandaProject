@@ -33,8 +33,7 @@
 - [ERD](#erd)
 - [Schedule](#schedule)
 - [Deployment](#deployment)
-- [Main Application](#main-application)
-- [API 명세서](#api-명세서)
+- [Function](#function)
 
 ## 소개영상
 [![YouTube Video](https://private-user-images.githubusercontent.com/133863078/371852448-457b3030-85ee-4c2e-9a6a-bc70ee3bf98e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc2MTE2OTcsIm5iZiI6MTcyNzYxMTM5NywicGF0aCI6Ii8xMzM4NjMwNzgvMzcxODUyNDQ4LTQ1N2IzMDMwLTg1ZWUtNGMyZS05YTZhLWJjNzBlZTNiZjk4ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyOVQxMjAzMTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMDQ1N2QzYmY4YjI3MGNhOTNmNTk3NTM1ZWIxMGI0MTdkM2Q3NGY2ZDQ3MjFjZjI2NTI5Mjk0MGQwNmYwZmU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZOmSmu0x03be_uAMkh8yfVbEl4uNM2OLM2LSCAnY0WI)](https://www.youtube.com/watch?v=jMFjW18qeZ4)
@@ -57,6 +56,7 @@
   - maingmaews        : 메인 게임의 웹소켓 통신 및 채팅기능을 처리하는 Springboot 기반의 백엔드 서버
   - minigamews        : 미니게임들의 웹소켓 통신 및 SSE를 처리하는 ExpressJS 기반의 백엔드 서버
 
+## Function
 ### 로그인
 이미지 들어갈 공간(3)
 이미지 들어갈 공간(3)
