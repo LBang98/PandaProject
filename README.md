@@ -131,7 +131,8 @@
 
 ### 1:1 채팅 기능
 <img width="300" alt="chatting" src="https://github.com/user-attachments/assets/c0186ea5-4969-4900-84aa-d6f0b164fe8e">
-- WebSocket과 STOMP 프로토콜을 사용하여 실시간 1:1 채팅 기능을 구현하였습니다.
+
+- WebSocket을 사용하여 실시간 1:1 채팅 기능을 구현하였습니다.
   - 서버는 WebSocket을 통해 양방향 통신을 지원하며, 클라이언트와의 실시간 데이터를 주고받습니다.
   - 비동기 처리 및 Pub/Sub 패턴을 적용하여 메시지 지연을 최소화하고 성능을 최적화하였습니다.
 
