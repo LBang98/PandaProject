@@ -5,10 +5,10 @@
 중고거래 플랫폼을 통해 사용자는 동네 근처에서 원하는 중고물품을 명확한 목적지를 확인한 후, 간편한 채팅을 통해 거래할 수 있습니다.  
 
 ## Team
-|ㅇㅇ|ㅇㅇ|ㅇㅇ|ㅇㅇ|ㅇㅇ|ㅇㅇ|
-|------|---|---|---|---|---|
-|테스트1|테스트2|테스트3|테스트2|테스트3|테스트2|
-|테스트1|테스트2|테스트3|테스트2|테스트3|테스트2|
+|      ㅇㅇㅇ       |          ㅇㅇㅇ         |       ㅇㅇㅇ         |          ㅇㅇㅇ         |       ㅇㅇㅇ         |                                                                                                               
+| :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |:---------------------------------------------------------------------------------------------------------------------------------------------------: |:---------------------------------------------------------------------------------------------------------------------------------------------------: | 
+|   <img width="225" alt="유상곤" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/b21dec68-d37a-47de-aa23-dc9da9662415">    |     <img width="225" alt="허승필" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/c8f378a7-8775-485a-a394-5c68b328c06c">    |    <img width="225" alt="정진욱" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/104bfaf5-3399-40c2-80f0-4b7e41704ea3">   |    <img width="225" alt="민경진" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/83339d9e-3dcb-444a-9fea-3869257879a5">   |    <img width="225" alt="박민지" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/63fc823e-d3d8-46a1-b445-40356c614827">   |
+| 포트폴리오 | 학생 마이페이지 | 로그인/회원가입 | 문의/강사 마이페이지 | 리뷰/관리자 마이페이지  |
 
 ## Tech Stack
 ### Frontend
@@ -31,7 +31,7 @@
 - [Function](#function)
 
 ## 소개영상
-[![YouTube Video](https://private-user-images.githubusercontent.com/133863078/371852448-457b3030-85ee-4c2e-9a6a-bc70ee3bf98e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mjc2MTE2OTcsIm5iZiI6MTcyNzYxMTM5NywicGF0aCI6Ii8xMzM4NjMwNzgvMzcxODUyNDQ4LTQ1N2IzMDMwLTg1ZWUtNGMyZS05YTZhLWJjNzBlZTNiZjk4ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyOVQxMjAzMTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kMDQ1N2QzYmY4YjI3MGNhOTNmNTk3NTM1ZWIxMGI0MTdkM2Q3NGY2ZDQ3MjFjZjI2NTI5Mjk0MGQwNmYwZmU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZOmSmu0x03be_uAMkh8yfVbEl4uNM2OLM2LSCAnY0WI)](https://www.youtube.com/watch?v=jMFjW18qeZ4)
+[![YouTube Video](https://private-user-images.githubusercontent.com/133863078/371852448-457b3030-85ee-4c2e-9a6a-bc70ee3bf98e.png)](https://www.youtube.com/watch?v=jMFjW18qeZ4)
 
 ## ERD
 작업중
