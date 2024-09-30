@@ -49,10 +49,10 @@
 )](https://www.youtube.com/watch?v=jMFjW18qeZ4)
 
 ## ERD
-작업중
+<img width="300" alt="ERD" src="https://github.com/user-attachments/assets/89381c31-ef76-4de4-aee6-279970e96682">
 
 ## Schedule
-작업중
+<img width="300" alt="schedule" src="https://github.com/user-attachments/assets/ab2a8f02-a1d1-4dc7-b1fe-94de889e9fc8">
 
 ## Deployment
 ### CI/CD
@@ -78,7 +78,7 @@
 ---
 
 ### 로그인
-![이미지 들어갈 공간(3)](https://via.placeholder.com/370)
+<img width="300" alt="login" src="https://github.com/user-attachments/assets/edde22b9-4312-4203-a69e-7bda7f8f91c4">
 
 #### 1. 로그인
 
@@ -90,7 +90,7 @@
 ---
 
 ### 회원가입
-![이미지 들어갈 공간(3)](https://via.placeholder.com/370)
+<img width="300" alt="register" src="https://github.com/user-attachments/assets/a2052cef-b27b-458a-8996-ba24065832e4">
 
 #### 2. 회원가입
 
@@ -144,50 +144,42 @@
 ---
 
 ### 1:1 채팅 기능
-![이미지 들어갈 공간(5)](https://via.placeholder.com/370)
+<img width="300" alt="chatting" src="https://github.com/user-attachments/assets/c0186ea5-4969-4900-84aa-d6f0b164fe8e">
 - WebSocket과 STOMP 프로토콜을 사용하여 실시간 1:1 채팅 기능을 구현하였습니다.
   - 서버는 WebSocket을 통해 양방향 통신을 지원하며, 클라이언트와의 실시간 데이터를 주고받습니다.
   - 비동기 처리 및 Pub/Sub 패턴을 적용하여 메시지 지연을 최소화하고 성능을 최적화하였습니다.
 
 ---
 
-### NCP 챗봇 지원
-![이미지 들어갈 공간(Chatting)](https://via.placeholder.com/370)
-- WebSocket 기반으로 NCP CLOVA 챗봇을 구축하여 실시간으로 사용자의 질문에 대응할 수 있는 환경을 개발하였습니다.
-  - CLOVA AI를 사용하여 자연어 처리 모델을 통해 사용자 질문에 대한 적절한 답변을 실시간으로 제공합니다.
-
----
-
 ### 위치 설정 (Kakaomap API)
-![이미지 들어갈 공간(7)](https://via.placeholder.com/370)
+
 - Kakaomap API를 사용하여 거래 장소 설정을 지원합니다.
   - 사용자는 자신의 위치 또는 거래 상대방의 위치를 지도상에서 설정하고, 거래 장소를 실시간으로 확인할 수 있습니다.
 
 ---
 
-### 결제 시스템 (TossPayment API)
-![이미지 들어갈 공간(7)](https://via.placeholder.com/370)
-- TossPayment API를 통해 안전한 결제 시스템을 구축하였습니다.
-  - 결제 정보는 HTTPS로 암호화되어 안전하게 처리되며, Google Captcha API를 연동하여 스팸 및 악성 봇의 접근을 방지합니다.
-
----
-
 ## WebSocket을 이용한 NCP의 CLOVA 메신저 챗봇 개발
+<img width="300" alt="chatbot" src="https://github.com/user-attachments/assets/7c859424-2cea-412c-888b-c5b5238127b3">
+
 - NCP CLOVA AI를 활용하여 실시간으로 PANDA 플랫폼 관련 정보를 제공하는 메신저 챗봇을 개발하였습니다.
   - WebSocket을 통해 사용자와 챗봇 간의 실시간 상호작용을 구현하여 사용자 문의에 대한 즉각적인 응답을 제공합니다.
+  - CLOVA AI를 사용하여 자연어 처리 모델을 통해 사용자 질문에 대한 적절한 답변을 실시간으로 제공합니다.
 
 ---
 
 ## Redis 서버를 통한 SMTP 메시지 인증 개발
+<img width="300" alt="pw2" src="https://github.com/user-attachments/assets/7472a2ee-8147-49c2-9b90-a7af1c0dcf86">
+<img width="300" alt="pw" src="https://github.com/user-attachments/assets/5f4ea52f-9651-482b-88a9-5fde057391a1">
+<img width="300" alt="email" src="https://github.com/user-attachments/assets/7d30bb5e-b525-4ba8-b6c2-c3080cab407d">
+
 - Redis 서버를 이용하여 SMTP 기반의 메시지 인증 시스템을 개발하였습니다.
   - 빠르고 안전한 인증 메커니즘을 제공하여 사용자 계정 보호와 비밀번호 복구 기능을 지원합니다.
 
 ---
 
 ## TOSSPAYMENT API를 이용한 결제 시스템 및 Google Captcha API 연동
-- TOSSPAYMENT API를 활용하여 안전하고 간편한 결제 시스템을 구축하였습니다.
-  - Google Captcha API를 연동하여 보안을 강화하고, 결제 과정에서 악성 요청을 방지합니다.
-
+- TossPayment API를 통해 안전한 결제 시스템을 구축하였습니다.
+  - 결제 정보는 HTTPS로 암호화되어 안전하게 처리되며, Google Captcha API를 연동하여 스팸 및 악성 봇의 접근을 방지합니다.
 
 
 
