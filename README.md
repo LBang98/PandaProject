@@ -7,7 +7,7 @@
 ## Team
 |      시바타유니       |          정민석         |       우태형         |          이병현         |       공병현         |       김창인         |
 | :-------------------: | :---------------------: | :------------------: | :---------------------: | :------------------: | :------------------: |
-|   <img width="225" alt="시바타유니" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/b21dec68-d37a-47de-aa23-dc9da9662415">    |     <img width="225" alt="정민석" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/c8f378a7-8775-485a-a394-5c68b328c06c">    |    <img width="225" alt="우태형" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/104bfaf5-3399-40c2-80f0-4b7e41704ea3">   |    <img width="225" alt="이병현" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/83339d9e-3dcb-444a-9fea-3869257879a5">   |    <img width="225" alt="공병현" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/63fc823e-d3d8-46a1-b445-40356c614827">   |    <img width="225" alt="김창인" src="https://github.com/DevCampUs-FiveGuys/main/assets/147224562/63fc823e-d3d8-46a1-b445-40356c614827">   |
+|   <img width="300" alt="시바타유니" src="https://github.com/user-attachments/assets/ae829d06-1fdc-44a6-9f26-8ccaea075510">    |     <img width="300" alt="정민석" src="https://github.com/user-attachments/assets/fa508cc8-eef9-46d8-a96f-0aecd1ce29da">    |    <img width="300" alt="우태형" src="https://github.com/user-attachments/assets/5c9225d1-76ba-4538-84b4-44215c2635a0">   |    <img width="300" alt="이병현" src="https://github.com/user-attachments/assets/f8381b2a-0cd3-4ae9-9734-568de6267a3e">   |    <img width="300" alt="공병현" src="https://github.com/user-attachments/assets/c4f11261-6b85-419a-b4a5-e4227771d29f">   |    <img width="300" alt="김창인" src="https://github.com/user-attachments/assets/9f3cc4a7-3224-498f-8a07-77346aa4675d">   |
 
 
 ## Tech Stack
@@ -42,7 +42,6 @@
 - [ERD](#erd)
 - [Schedule](#schedule)
 - [Deployment](#deployment)
-- [Function](#function)
 
 ## 소개영상
 [![YouTube Video](<img src="/src/main/resources/static/image/panda.png" width="370" height="370">
@@ -55,22 +54,9 @@
 <img width="300" alt="schedule" src="https://github.com/user-attachments/assets/ab2a8f02-a1d1-4dc7-b1fe-94de889e9fc8">
 
 ## Deployment
-### CI/CD
-이미지가 들어갈 공간(2)
-- NCP를 이용해 배포
-  - CI : Main branch로 push또는 pull request처리가 이루어지면 repository의 내역을 토대로 build를 실행. 빌드 성공시 Dockerfile을 토대로 Docker Image를 제작하여 네이버 클라우드의 Container Reqistry로 이미지를 전송
-  - CD : 네이버 클라우드 CLI를 통하여 현 깃허브 액션 실행서버에서 배포 서버로의 접근 권한 부여 후 ssh 접속을 통한 원격 접속. 이후 네이버 클라우드 Container Registry에서 신규 이미지를 pull한 후 현재 사용중인 컨테이너를 정지하고 새로 pull한 이미지를 바탕으로 새 컨테이너 실행. 작업 완료 후 불필요한 이미지 버젼 제거 및 서버 접근권한 제거
-
-## ERD
-작업중
-
-## Schedule
-작업중
-
-## Deployment
 
 ### CI/CD
-![이미지 들어갈 공간(2)](https://via.placeholder.com/370)
+
 - NCP(Naver Cloud Platform)를 이용해 배포하였습니다.
   - **CI**: Main branch로 push 또는 pull request가 발생하면, GitHub Actions를 통해 repository의 내역을 기반으로 자동 빌드가 실행됩니다. 빌드 성공 시, Dockerfile을 바탕으로 Docker Image를 생성하고, 네이버 클라우드의 Container Registry에 이미지를 업로드합니다.
   - **CD**: 네이버 클라우드 CLI를 사용해 배포 서버에 접근 권한을 부여하고, SSH를 통해 서버에 원격 접속 후 새로운 이미지를 pull하여 기존 컨테이너를 교체합니다. 컨테이너 업데이트 후 불필요한 이미지 버전을 삭제하고, 보안을 위해 접근 권한을 제거합니다.
@@ -127,7 +113,8 @@
 ---
 
 ### 반응형 디자인
-![이미지 들어갈 공간(3)](https://via.placeholder.com/370)
+<img width="300" alt="panda-1" src="https://github.com/user-attachments/assets/9feccfb0-ab56-4cdd-8f60-27f12c5e9b82">
+
 - 플랫폼의 첫 인상을 결정짓는 메인 화면을 설계 및 개발하였습니다.
   - 직관적인 UI/UX를 적용하여 사용자가 쉽게 중고물품을 탐색하고 거래를 시작할 수 있도록 최적화하였습니다.
   - Tailwind CSS와 JavaScript를 사용해 사용자 친화적인 인터페이스를 구현하였습니다.
@@ -137,7 +124,7 @@
 ---
 
 ### 리뷰 및 별점 부여 기능
-![이미지 들어갈 공간(4)](https://via.placeholder.com/370)
+
 - 거래 후 리뷰 및 별점 부여 기능을 추가하여 사용자 피드백 기반의 신뢰성을 확보하였습니다.
 - 서버에서 사용자 리뷰와 별점을 저장 및 관리하며, 별점 평균을 실시간으로 계산하여 UI에 반영합니다.
 
@@ -178,6 +165,8 @@
 ---
 
 ## TOSSPAYMENT API를 이용한 결제 시스템 및 Google Captcha API 연동
+<img width="300" alt="toss" src="https://github.com/user-attachments/assets/266a1fe6-42ad-4be4-b0c8-de7d293a6d3a">
+
 - TossPayment API를 통해 안전한 결제 시스템을 구축하였습니다.
   - 결제 정보는 HTTPS로 암호화되어 안전하게 처리되며, Google Captcha API를 연동하여 스팸 및 악성 봇의 접근을 방지합니다.
 
