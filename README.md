@@ -44,8 +44,7 @@
 - [Deployment](#deployment)
 
 ## 소개영상
-[![YouTube Video](<img src="/src/main/resources/static/image/panda.png" width="370" height="370">
-)](https://www.youtube.com/watch?v=jMFjW18qeZ4)
+[![YouTube Video](https://example.com/path/to/your/image/panda.png)](https://www.youtube.com/watch?v=jMFjW18qeZ4)
 
 ## ERD
 <img width="300" alt="ERD" src="https://github.com/user-attachments/assets/89381c31-ef76-4de4-aee6-279970e96682">
