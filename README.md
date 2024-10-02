@@ -52,13 +52,27 @@
 ## Schedule
 <img width="300" alt="schedule" src="https://github.com/user-attachments/assets/ab2a8f02-a1d1-4dc7-b1fe-94de889e9fc8">
 
-## Deployment
+## CI/CD
 
-### CI/CD
+GitHub Webhooks, Jenkins, Docker, 및 Tomcat을 사용하여 CI/CD 파이프라인을 구성하였습니다. 다음은 각 구성 요소의 역할과 설정 방법입니다.
 
-- NCP(Naver Cloud Platform)를 이용해 배포하였습니다.
-  - **CI**: Main branch로 push 또는 pull request가 발생하면, GitHub Actions를 통해 repository의 내역을 기반으로 자동 빌드가 실행됩니다. 빌드 성공 시, Dockerfile을 바탕으로 Docker Image를 생성하고, 네이버 클라우드의 Container Registry에 이미지를 업로드합니다.
-  - **CD**: 네이버 클라우드 CLI를 사용해 배포 서버에 접근 권한을 부여하고, SSH를 통해 서버에 원격 접속 후 새로운 이미지를 pull하여 기존 컨테이너를 교체합니다. 컨테이너 업데이트 후 불필요한 이미지 버전을 삭제하고, 보안을 위해 접근 권한을 제거합니다.
+### 1. GitHub Webhooks
+GitHub Webhooks를 통해 코드 변경 사항을 자동으로 감지합니다. Main 브랜치에 푸시가 발생하면 웹훅이 트리거되어 Jenkins 서버에 알림을 보냅니다.
+
+### 2. Jenkins
+Jenkins는 CI/CD 도구로, GitHub에서 받은 웹훅 알림을 기반으로 자동 빌드를 수행합니다. Jenkins에서 설정한 파이프라인은 다음과 같은 단계로 구성됩니다:
+
+- **코드 체크아웃**: GitHub 저장소에서 최신 코드를 가져옵니다.
+- **빌드**: Maven을 사용하여 프로젝트를 빌드하고, WAR 파일을 생성합니다.
+- **테스트**: 자동화된 테스트를 실행하여 코드의 품질을 확인합니다.
+
+### 3. Docker와 Tomcat
+이 프로젝트에서는 Docker를 사용하여 Tomcat 서버를 컨테이너화하였습니다. Jenkins에서 생성된 WAR 파일은 Docker로 실행 중인 Tomcat 컨테이너에 전달되어 배포됩니다. 이 과정은 다음과 같이 진행됩니다:
+
+- **Tomcat 컨테이너 실행**: Docker를 사용하여 Tomcat 서버를 실행합니다. 이 서버는 애플리케이션을 호스팅하는 환경을 제공합니다.
+- **WAR 파일 배포**: Jenkins는 빌드가 완료된 후 생성된 WAR 파일을 Docker로 실행 중인 Tomcat 컨테이너에 배포합니다. 이를 통해 최신 애플리케이션 버전이 자동으로 업데이트됩니다.
+
+이러한 CI/CD 파이프라인을 통해 코드 변경 사항이 발생할 때마다 자동으로 빌드 및 배포가 이루어져, 개발 속도를 높이고 안정성을 향상시킬 수 있습니다.
 
 ---
 
