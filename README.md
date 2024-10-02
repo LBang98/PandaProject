@@ -138,6 +138,7 @@ Jenkins는 CI/CD 도구로, GitHub에서 받은 웹훅 알림을 기반으로 �
 ---
 
 ### 마이페이지
+<img width="300" alt="mypage" src="https://github.com/user-attachments/assets/2ed335f6-74d2-4e3e-b3bf-5e913943925d">
 
 - **판매 내역 및 구매 내역**: 사용자는 자신의 판매 내역과 구매 내역을 한눈에 확인할 수 있으며, 진행 중인 거래 상태를 쉽게 관리할 수 있습니다.
 - **찜 목록**: 사용자는 관심 있는 상품들을 찜 목록에 추가하여 관리하고, 언제든지 빠르게 접근할 수 있습니다.
@@ -147,6 +148,8 @@ Jenkins는 CI/CD 도구로, GitHub에서 받은 웹훅 알림을 기반으로 �
 ---
 
 ### 상품 등록 및 상품 상세사항
+<img width="300" alt="product" src="https://github.com/user-attachments/assets/501c9b5e-678a-4dd2-b2a0-03a37ff5e2e8">
+<img width="300" alt="productdetail" src="https://github.com/user-attachments/assets/04fb1fe5-1308-4f32-ab95-4c5e9040a8e6">
 
 - **상품 등록**: 상품을 등록할 때 **KakaoMap API**를 사용하여 정확한 **위치 정보**를 함께 등록할 수 있어, 상품의 위치를 명확하게 표시할 수 있습니다.
 - **찜하기 기능**: 등록된 상품 페이지에서는 다른 사용자가 해당 상품을 **찜 목록**에 추가할 수 있으며, 이를 통해 상품의 인기도를 파악할 수 있습니다.
