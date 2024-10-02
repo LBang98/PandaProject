@@ -14,6 +14,9 @@
 
 ### Backend
 ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![WebSocket](https://img.shields.io/badge/-WebSocket-010101?style=flat-square&logo=websocket&logoColor=white)
+![Maven](https://img.shields.io/badge/-Maven-C71A36?style=flat-square&logo=apache-maven&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 
 ### Frontend
 ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
@@ -31,10 +34,16 @@
 ### Databases
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-### Tools
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+### APIs
+![KakaoMaps](https://img.shields.io/badge/-KakaoMaps-FFCD00?style=flat-square&logo=kakao&logoColor=black)
+![Google reCAPTCHA](https://img.shields.io/badge/-Google%20reCAPTCHA-4285F4?style=flat-square&logo=google&logoColor=white)
+![Gmail API](https://img.shields.io/badge/-Gmail%20API-D14836?style=flat-square&logo=gmail&logoColor=white)
 ![Payment](https://img.shields.io/badge/-Payment-FF4B4B?style=flat-square&logo=mastercard&logoColor=white)
 
+### Tools
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Jira](https://img.shields.io/badge/-Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Trello](https://img.shields.io/badge/-Trello-0079BF?style=flat-square&logo=trello&logoColor=white)
 
 
 ## 목차
@@ -192,8 +201,10 @@ Jenkins는 CI/CD 도구로, GitHub에서 받은 웹훅 알림을 기반으로 �
 <img width="300" alt="pw" src="https://github.com/user-attachments/assets/5f4ea52f-9651-482b-88a9-5fde057391a1">
 <img width="300" alt="email" src="https://github.com/user-attachments/assets/7d30bb5e-b525-4ba8-b6c2-c3080cab407d">
 
-- Redis 서버를 이용하여 SMTP 기반의 메시지 인증 시스템을 개발하였습니다.
-  - 빠르고 안전한 인증 메커니즘을 제공하여 사용자 계정 보호와 비밀번호 복구 기능을 지원합니다.
+- **Redis 서버를 이용한 SMTP 기반 메시지 인증 시스템**
+  - Redis 서버는 Docker 환경에서 **8090번 포트**로 별도로 설정되어 사용되며, 휘발성 데이터를 처리하는 데 활용됩니다.
+  - 이 시스템은 빠르고 안전한 **인증 메커니즘**을 제공하여, **사용자 계정 보호**와 **비밀번호 복구** 기능을 지원합니다.
+  - Redis의 **휘발성 특성**을 이용해, 인증 코드의 유효 기간을 설정하고 자동으로 만료되는 구조를 적용하여 보안성을 강화했습니다.
 
 ---
 
